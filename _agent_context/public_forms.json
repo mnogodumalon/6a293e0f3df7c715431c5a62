@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "veranstaltungen",
+      "app_id": "6a293dfdc6afb340fd657d90",
+      "path": "/rest/apps/6a293dfdc6afb340fd657d90/records",
+      "allowed_fields": [
+        "titel",
+        "typ",
+        "beschreibung",
+        "startdatum",
+        "enddatum",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "stadt",
+        "status",
+        "prioritaet",
+        "verantwortliche",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Veranstaltungen — Formular"
+    },
+    {
+      "entity": "verantwortliche",
+      "app_id": "6a293dfacd0fac970e8ed88d",
+      "path": "/rest/apps/6a293dfacd0fac970e8ed88d/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "abteilung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Verantwortliche — Formular"
+    }
+  ]
+}

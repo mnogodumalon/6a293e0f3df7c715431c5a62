@@ -1,0 +1,24 @@
+{
+  "VeranstaltungenDialog.tsx": {
+    "titel": "z. B. Jahreskonferenz 2026",
+    "typ": "Wähle einen Typ",
+    "beschreibung": "Inhalte, Ablauf, Zielgruppe, Besonderheiten...",
+    "startdatum": "Wann startet die Veranstaltung?",
+    "enddatum": "Wann endet die Veranstaltung?",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42",
+    "plz": "z. B. 10115",
+    "stadt": "z. B. Berlin",
+    "status": "Status wählen",
+    "prioritaet": "Priorität setzen",
+    "verantwortliche": "Welche Personen leiten das?",
+    "notizen": "Besonderheiten, Anmerkungen, Kontakte..."
+  },
+  "VerantwortlicheDialog.tsx": {
+    "vorname": "z. B. Anna",
+    "nachname": "z. B. Müller",
+    "email": "z. B. anna@firma.de",
+    "telefon": "z. B. +49 30 123456",
+    "abteilung": "z. B. Marketing, Projektleitung"
+  }
+}

@@ -1,0 +1,3 @@
+- Veranstaltungen (veranstaltungen): titel[string/text], typ[lookup/radio], beschreibung[string/textarea], startdatum[date/datetimeminute], enddatum[date/datetimeminute], strasse[string/text], hausnummer[string/text], plz[string/text], stadt[string/text], status[lookup/select], prioritaet[lookup/radio], verantwortliche[multipleapplookup/select], notizen[string/textarea]
+  → verantwortliche links to app_id 6a293dfacd0fac970e8ed88d
+- Verantwortliche (verantwortliche): vorname[string/text], nachname[string/text], email[string/email], telefon[string/tel], abteilung[string/text]

@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Veranstaltungen": {
+      "placeholders_set": 13,
+      "defaults_keys": ["startdatum", "enddatum", "status", "prioritaet"],
+      "computed_keys": ["_veranstaltung_dauer_stunden"],
+      "reason": "Zwei Date-Time-Felder (startdatum/enddatum) mit Dauer-Berechnung in Stunden. Keine Preis-/Kosten-Felder, daher keine Aggregat-Formeln. Multiapplookup auf Verantwortliche hat kein numerisches Target. Virtuelle Dauer wird als Aggregat-Hinweis angezeigt."
+    },
+    "Verantwortliche": {
+      "placeholders_set": 5,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten (Vorname, Nachname, Email, Telefon, Abteilung) — keine Dauer-Paare, keine Lookup-Ketten auf Preis-Felder, keine numerischen Felder. Keine berechenbaren Beziehungen vorhanden."
+    }
+  }
+}
